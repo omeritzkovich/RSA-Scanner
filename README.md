@@ -19,7 +19,7 @@ Once  is found, the private key  can be recovered immediately using the extended
 
 This implementation was tested against a naive pairwise scanner. The results demonstrate the efficiency of the Product Tree approach:
 
-| Dataset Size | Naive GCD () | Batch GCD (My Algo) |
+| Dataset Size | Naive GCD | Batch GCD (My Algo) |
 | --- | --- | --- |
 | **100 Keys** | 0.4s | **0.05s** |
 | **1,000 Keys** | ~45.0s | **~1.2s** |
@@ -39,7 +39,7 @@ This implementation was tested against a naive pairwise scanner. The results dem
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RSA-Weakness-Scanner.git
+git clone https://github.com/itzkomer/RSA-Weakness-Scanner.git
 cd RSA-Weakness-Scanner
 pip install -r requirements.txt
 
