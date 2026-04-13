@@ -39,7 +39,7 @@ This implementation was tested against a naive pairwise scanner. The results dem
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RSA-Weakness-Scanner.git
+git clone https://github.com/itzkomer/RSA-Weakness-Scanner.git
 cd RSA-Weakness-Scanner
 pip install -r requirements.txt
 
